@@ -6,4 +6,6 @@
     <string name="cd_busqueda">¿A donde quieres ir?</string>
     <string name="ayuda_cd_busqueda">Ingrese un punto turistico o destino cercano.</string>
     <string name="bsq_ruta">Buscar Ruta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
