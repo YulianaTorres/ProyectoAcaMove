@@ -11,7 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.acamove.R
 
 class HomeFragment : Fragment() {
-
+//Home es Rutas
     private lateinit var homeViewModel: HomeViewModel
 
     override fun onCreateView(

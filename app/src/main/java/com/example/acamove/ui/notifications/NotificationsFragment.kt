@@ -11,7 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.acamove.R
 
 class NotificationsFragment : Fragment() {
-
+    //Notifications es Puntos de Interes
     private lateinit var notificationsViewModel: NotificationsViewModel
 
     override fun onCreateView(

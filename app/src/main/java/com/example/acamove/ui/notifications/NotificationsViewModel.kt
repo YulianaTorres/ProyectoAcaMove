@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class NotificationsViewModel : ViewModel() {
-
+//Notifications es Puntos de Interes
     private val _text = MutableLiveData<String>().apply {
         value = "Puntos de Interés"
     }

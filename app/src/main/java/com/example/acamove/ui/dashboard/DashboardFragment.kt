@@ -12,7 +12,7 @@ import com.example.acamove.R
 
 
 class DashboardFragment : Fragment() {
-
+//Dasboard es el Mapa principal
     private lateinit var dashboardViewModel: DashboardViewModel
 
     override fun onCreateView(
