@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class HomeViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "Menu de opciones"
+        value = "Rutas"
     }
     val text: LiveData<String> = _text
 }
