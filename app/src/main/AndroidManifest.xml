@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.acamove"
     >
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -29,7 +29,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="" />
+            android:value="@string/google_maps_key" />
 
         <activity
             android:name=".MainActivity"
