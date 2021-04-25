@@ -7,13 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".SeleccionRuta">
 
-
     <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView3"
-        android:layout_width="728dp"
-        android:layout_height="480dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="2dp"
+        android:id="@+id/mapView2"
+        android:layout_width="411dp"
+        android:layout_height="274dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-10dp"
         tools:ignore="MissingConstraints" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

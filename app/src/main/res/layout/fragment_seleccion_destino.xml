@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:ems="10"
+        android:drawableEnd="@drawable/ic_puntos_interes"
         android:hint="Mi Ubicación"
         android:inputType="textPersonName"
         android:textSize="12pt" />
@@ -26,6 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
         android:ems="10"
+        android:drawableEnd="@drawable/ic_search"
         android:hint="Mi Destino"
         android:inputType="textPersonName"
         android:textSize="12pt" />
