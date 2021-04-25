@@ -3,4 +3,6 @@
     <string name="title_home">Rutas</string>
     <string name="title_dashboard">Mi Ubicación</string>
     <string name="title_notifications">Puntos de Interés</string>
+    <string name="cd_busqueda">¿A donde quieres ir?</string>
+    <string name="ayuda_cd_busqueda">Ingrese un punto turistico o destino cercano.</string>
 </resources>
