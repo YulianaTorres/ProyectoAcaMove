@@ -6,8 +6,6 @@ import androidx.lifecycle.ViewModel
 
 class DashboardViewModel : ViewModel() {
 //Dashboard es el Mapa principal
-    private val _text = MutableLiveData<String>().apply {
-        value = ""
-    }
-    val text: LiveData<String> = _text
+
+
 }
