@@ -29,10 +29,10 @@ private val callback = OnMapReadyCallback { googleMap ->
      * install it inside the SupportMapFragment. This method will only be triggered once the
      * user has installed Google Play services and returned to the app.
      */
-    val sydney = LatLng(-34.0, 151.0)
-    googleMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-    googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
-}
+    val aca = LatLng(16.861669478366586, -99.87731406139092)
+    googleMap.addMarker(MarkerOptions().position(aca).title("Acapulco"))
+    googleMap.moveCamera(CameraUpdateFactory.newLatLng(aca))
+   googleMap.animateCamera( CameraUpdateFactory.zoomTo( 12.0f ) );}
     private lateinit var dashboardViewModel: DashboardViewModel
 
     override fun onCreateView(
