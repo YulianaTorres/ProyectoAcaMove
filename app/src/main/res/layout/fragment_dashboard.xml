@@ -44,7 +44,7 @@
         android:layout_height="312dp"
         android:layout_marginTop="72dp"
         android:background="@drawable/cuadro"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="@+id/map"
