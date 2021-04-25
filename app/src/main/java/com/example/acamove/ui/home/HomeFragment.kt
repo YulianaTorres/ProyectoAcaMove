@@ -16,19 +16,13 @@ class HomeFragment : Fragment() {
     private lateinit var homeViewModel: HomeViewModel
     var listaRutas: ArrayList<String> = ArrayList()
 
-    override fun onCreateView(
-            inflater: LayoutInflater,
-            container: ViewGroup?,
-            savedInstanceState: Bundle?
-    ): View? {
-        homeViewModel =
-                ViewModelProvider(this).get(HomeViewModel::class.java)
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        homeViewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_home, container, false)
-val rutas = view?.findViewById<ListView>(R.id.lista_de_rutas)
+        val lista = view?.findViewById<ListView>(R.id.lista_de_rutas)
 
-        listaRutas.add("Rutas de Acabus")
-//ArrayAdapter<String>
 
         return root
-    }
+        }
+
 }
