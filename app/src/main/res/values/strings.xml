@@ -6,4 +6,13 @@
     <string name="cd_busqueda">¿A donde quieres ir?</string>
     <string name="ayuda_cd_busqueda">Ingrese un punto turistico o destino cercano.</string>
     <string name="bsq_ruta">Buscar Ruta</string>
+
+
+    <string name="android_sdk_places_api_key">AIzaSyBas3nGCOeJxgPeD4WVft7ICcAfTLFvq6s</string>
+    <string name="mi_ubicacion">Mi ubicacion: %sl</string>
+    <string name="a_donde_quieres_ir">Destino: %sl</string>
+    <string name="seleccionarFrom">seleccionar</string>
+    <string name="seleccionarTo">seleccionar</string>
+    <string name="marker_title_from">Desde</string>
+    <string name="marker_title_to">Hasta</string>
 </resources>
